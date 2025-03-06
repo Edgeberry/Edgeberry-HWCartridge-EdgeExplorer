@@ -2,7 +2,7 @@
 
 <img src="documentation//Edgeberry_Explorer_Cartridge_rendering.png" align="right" width="50%"/>
 
-The Edgeberry **Explorer Hardware Cartridge** lorem ipsum dolores si amet ...
+The Edgeberry **Edge Explorer Hardware Cartridge** lorem ipsum dolores si amet ...
 
 <br clear="right"/>
 
