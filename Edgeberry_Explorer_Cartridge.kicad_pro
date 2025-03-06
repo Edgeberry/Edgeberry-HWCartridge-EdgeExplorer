@@ -543,9 +543,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Edgeberry_Explorer_Cartridge.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "Edgeberry_Explorer_Cartridge.wrl"
     },
     "page_layout_descr_file": ""
   },
