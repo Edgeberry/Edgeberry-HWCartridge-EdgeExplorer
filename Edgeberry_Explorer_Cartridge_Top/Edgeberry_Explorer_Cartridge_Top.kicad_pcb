@@ -83,13 +83,13 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x0001000_7ffffffe)
+			(plot_on_all_layers_selection 0x00211a0_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -113,11 +113,11 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 4)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "manufacturing/pcb/")
 		)
 	)
 	(net 0 "")
@@ -147,7 +147,7 @@
 		(uuid "0dda22a1-0489-4d72-8353-a66a0174ee2b")
 		(at 122.75 125.75)
 		(property "Reference" "J10"
-			(at -0.5 -5.9 0)
+			(at 0.85 6.35 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "896c0b2e-43ca-4ccf-9e54-f2c954850952")
@@ -652,6 +652,7 @@
 			(at -0.5 -5.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "48772508-68ff-49f5-bd57-51ad878dd07d")
 			(effects
 				(font
@@ -1154,6 +1155,7 @@
 			(at -0.5 -5.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "86553919-3518-4101-98dd-a61979cdb9a4")
 			(effects
 				(font
@@ -1656,6 +1658,7 @@
 			(at -0.5 -5.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b027a9ef-8bf3-45d7-a686-b7fb38a59685")
 			(effects
 				(font
@@ -2155,7 +2158,7 @@
 		(uuid "788738bc-b1fc-42cc-90c9-c4f882e57c34")
 		(at 110 83.25)
 		(property "Reference" "J1"
-			(at -0.5 -5.9 0)
+			(at -2.4 -6.05 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "41d8570f-8192-4a20-8cae-a37dbdd23b04")
@@ -2660,6 +2663,7 @@
 			(at -0.5 -5.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "699a1359-9626-4239-89b6-a982db5bf196")
 			(effects
 				(font
@@ -3159,7 +3163,7 @@
 		(uuid "87270212-1cb4-4a4b-8dda-7b610bc0d7a9")
 		(at 122.75 83.25)
 		(property "Reference" "J2"
-			(at -0.5 -5.9 0)
+			(at 1.25 -5.95 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b59ec154-471b-4ac4-b215-edb2d78d669c")
@@ -3661,7 +3665,7 @@
 		(uuid "bea46eb7-84c1-4a45-8d00-5eb16e2eca88")
 		(at 110 125.75)
 		(property "Reference" "J9"
-			(at -0.5 -5.9 0)
+			(at -2.1 6.45 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fe43650f-b50a-4e74-971b-cbf5d2c1ba50")
@@ -4166,6 +4170,7 @@
 			(at -0.5 -5.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1ea8ffb1-6eed-4f70-aa1b-4e7cf3753e2e")
 			(effects
 				(font
@@ -4668,6 +4673,7 @@
 			(at -0.5 -5.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "49f5bdb0-03f9-4b48-a7cd-76accacdac8f")
 			(effects
 				(font
@@ -6569,7 +6575,7 @@
 		)
 	)
 	(gr_text "I2C 2"
-		(at 128.4 86.7 90)
+		(at 128.2 87.9 90)
 		(layer "Dwgs.User")
 		(uuid "8e429f4d-7f21-4700-bba0-7c9a87402987")
 		(effects
@@ -7348,6 +7354,40 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "ceae0f9a-9a27-4696-9328-82bbfda1c8f2")
+		(pts
+			(xy 121 75.5) (xy 121 133.5)
+		)
+		(height 14.6)
+		(orientation 1)
+		(gr_text "58.0 mm"
+			(at 135.6 104.6 90)
+			(layer "Dwgs.User")
+			(uuid "ceae0f9a-9a27-4696-9328-82bbfda1c8f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
 	(dimension

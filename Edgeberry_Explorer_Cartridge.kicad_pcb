@@ -34,8 +34,8 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(grid_origin 125.2 135)
 		(pcbplotparams
-			(layerselection 0x0001cf0_80000001)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0001000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -13779,6 +13779,7 @@
 		(property "Value" "Conn_01x32_Pin"
 			(at 14.45 18.375 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9c6f93a5-9972-457c-86aa-3d81390e4efa")
 			(effects
 				(font
@@ -18372,7 +18373,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Panasonic A5 / Nichicon, 4.0x5.4mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C1"
-			(at -3.3 2 90)
+			(at -2.9 2 180)
 			(layer "F.SilkS")
 			(uuid "0f2b6d57-c78b-461c-b37b-36fb8c0a411c")
 			(effects
@@ -23385,6 +23386,17 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "PinHeader_2x16_P2.54mm_Horizontal"
+		(at 178.4 103.6 90)
+		(layer "F.Fab")
+		(uuid "e1a6d82f-8f66-4ca0-86a9-2501e3dc759e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
 		)
 	)
 	(dimension
