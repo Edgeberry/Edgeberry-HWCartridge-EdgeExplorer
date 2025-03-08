@@ -13,19 +13,20 @@ The Edgeberry **Edge Explorer Hardware Cartridge** is designed to explore ideas 
 <br clear="right"/>
 
 ## Layout
-| Port | Connection            | Info |
-|------|-----------------------|------|
-| D1   | GPIO12 <br/>GPIO20    | PWM     |
-| D2   | GPIO21 <br/>GPIO16    |      |
-| D3   | GPIO13 <br/>GPIO24    |      |
-| D4   | GPIO25 <br/>GPIO22    |      |
-| D5   | GPIO23 <br/>GPIO27    |      |
-| A1   | ADC CH0 <br/>ADC CH1  |MCP2008 |
-| A2   | ADC CH2 <br/>ADC CH3  |      |
-| I2C  | I2C SDA <br/>I2C SDL  |      |
-| UART | UART RX <br/>UART TX  |      |
 
+| Port     | Connection             | Info |
+|----------|------------------------|------|
+| **D1**   | GPIO12 <br/>GPIO20     | PWM     |
+| **D2**   | GPIO21 <br/>GPIO16     |      |
+| **D3**   | GPIO13 <br/>GPIO24     |      |
+| **D4**   | GPIO25 <br/>GPIO22     |      |
+| **D5**   | GPIO23 <br/>GPIO27     |      |
+| **A1**   | ADC* CH0 <br/>ADC CH1  |      |
+| **A2**   | ADC* CH2 <br/>ADC CH3  |      |
+| **I2C**  | I2C SDA <br/>I2C SDL   |      |
+| **UART** | UART RX <br/>UART TX   |      |
 
+On the Hardware Cartridge board is an ADC chip (MCP2008) connected with the SPI interface.
 
 
 ## License & Collaboration
