@@ -5968,16 +5968,6 @@
 		(uuid "c4bcaa3b-75dc-47cf-ad3e-36254cce9dfb")
 	)
 	(gr_line
-		(start 125 104.5)
-		(end 106.5 104.5)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(layer "Dwgs.User")
-		(uuid "23133988-c891-4fa9-acf2-9561a232045e")
-	)
-	(gr_line
 		(start 110 75.5)
 		(end 110 133.5)
 		(stroke
@@ -7223,7 +7213,7 @@
 		)
 		(height -10.9)
 		(gr_text "53.0 mm"
-			(at 130.75 104.5 90)
+			(at 132.2 104.55 90)
 			(layer "Dwgs.User")
 			(uuid "7eb2ad66-cbbc-40c4-a45c-1511642ed862")
 			(effects
@@ -7243,7 +7233,7 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
@@ -7283,46 +7273,13 @@
 	(dimension
 		(type aligned)
 		(layer "Dwgs.User")
-		(uuid "ea2e227e-18a9-47c2-b0f8-f777793595fc")
-		(pts
-			(xy 125 75.5) (xy 125 104.5)
-		)
-		(height -3.9)
-		(gr_text "29.0000 mm"
-			(at 130 90.2 90)
-			(layer "Dwgs.User")
-			(uuid "ea2e227e-18a9-47c2-b0f8-f777793595fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
 		(uuid "ff414b8c-c348-499c-8d9d-d990b3e1cef1")
 		(pts
 			(xy 115.9 79.29616) (xy 115.9 129.7)
 		)
 		(height -13.1)
-		(gr_text "50.4038 mm"
-			(at 127.9 104.49808 90)
+		(gr_text "50.4 mm"
+			(at 129.3 104.3 90)
 			(layer "Dwgs.User")
 			(uuid "ff414b8c-c348-499c-8d9d-d990b3e1cef1")
 			(effects
@@ -7337,12 +7294,12 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 1)
 		)
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
