@@ -21,8 +21,8 @@ The Edgeberry **Edge Explorer Hardware Cartridge** is designed to explore ideas 
 | **D3**   | GPIO13 <br/>GPIO24     |      |
 | **D4**   | GPIO25 <br/>GPIO22     |      |
 | **D5**   | GPIO23 <br/>GPIO27     |      |
-| **A1**   | ADC* CH0 <br/>ADC CH1  |      |
-| **A2**   | ADC* CH2 <br/>ADC CH3  |      |
+| **A1**   | *ADC* CH0 <br/>*ADC* CH1  |      |
+| **A2**   | *ADC* CH2 <br/>*ADC* CH3  |      |
 | **I2C**  | I2C SDA <br/>I2C SDL   |      |
 | **UART** | UART RX <br/>UART TX   |      |
 
