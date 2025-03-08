@@ -5,7 +5,7 @@
 The Edgeberry **Edge Explorer Hardware Cartridge** is designed to explore ideas by easily connecting sensors, actuators and other peripherals to your Edgeberry system. The connector allows a robust connection to modules/breakouts from several commonly used ecosystems.
 
 #### Interfaces:
-- 5x Digital input/output (D1 has PWM)
+- 5x Digital in/out (PWM on D1)
 - 2x Analog input (0-5V)
 - 1x UART
 - 2x I2C
