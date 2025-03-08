@@ -2,7 +2,7 @@
 
 <img src="documentation//Edgeberry_Explorer_Cartridge_rendering.png" align="right" width="50%"/>
 
-The Edgeberry **Edge Explorer Hardware Cartridge** lorem ipsum dolores si amet ...
+The Edgeberry **Edge Explorer Hardware Cartridge** is designed to explore ideas by easily connecting sensors, actuators and other peripherals to your Edgeberry system.
 
 <br clear="right"/>
 
