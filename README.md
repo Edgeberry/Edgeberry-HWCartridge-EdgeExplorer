@@ -2,7 +2,7 @@
 
 <img src="documentation//Edgeberry_Explorer_Cartridge_rendering.png" align="right" width="50%"/>
 
-The Edgeberry **Edge Explorer Hardware Cartridge** is designed to explore ideas by easily connecting sensors, actuators and other peripherals to your Edgeberry system. The connector allows a robust connection to modules/breakouts from several commonly used ecosystems.
+The Edgeberry **Edge Explorer Hardware Cartridge** is designed to explore ideas by easily connecting sensors, actuators and other peripherals to your Edgeberry system. The connector allows a robust connection to modules/breakouts from several ecosystems  (e.g. Grove, Crowtail, STEMMA, ... ).
 
 #### Interfaces:
 - 5x Digital in/out (PWM on D1)
@@ -11,6 +11,30 @@ The Edgeberry **Edge Explorer Hardware Cartridge** is designed to explore ideas 
 - 2x I2C
 
 <br clear="right"/>
+
+## Layout
+| Port | Connection | Info |
+|------|------------|------|
+| D1   | GPIO12     | PWM     |
+|      | GPIO20     |      |
+| D2   | GPIO21     |      |
+|      | GPIO16     |      |
+| D3   | GPIO13     |      |
+|      | GPIO24     |      |
+| D4   | GPIO25     |      |
+|      | GPIO22     |      |
+| D5   | GPIO23     |      |
+|      | GPIO27     |      |
+| A1   | ADC CH0    | MCP3008 connected through SPI |
+|      | ADC CH1    |      |
+| A2   | ADC CH2    |      |
+|      | ADC CH3    |      |
+| I2C  | I2C SDA    |      |
+|      | I2C SDL    |      |
+| UART | UART RX    |      |
+|      | UART TX    |      |
+
+
 
 
 ## License & Collaboration
