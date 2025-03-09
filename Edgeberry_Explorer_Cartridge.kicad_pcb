@@ -12373,7 +12373,6 @@
 			)
 		)
 		(model "${KIPRJMOD}/faceplate/Edgeberry_Hardware_Cartridge_faceplate.step"
-			(hide yes)
 			(offset
 				(xyz -43.5 -31.5 4.5)
 			)

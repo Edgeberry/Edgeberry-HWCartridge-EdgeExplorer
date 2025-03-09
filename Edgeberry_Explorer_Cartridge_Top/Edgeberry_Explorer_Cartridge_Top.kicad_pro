@@ -466,7 +466,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "manufacturing/assembly/",
+      "plot": "manufacturing/pcb/",
       "pos_files": "/home/tom/Projects/Edgeberry/Hardware/Edgeberry_Explorer_Cartridge/Edgeberry_Explorer_Cartridge_Top/manufacturing/assembly/",
       "specctra_dsn": "",
       "step": "",
