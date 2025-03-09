@@ -2761,7 +2761,7 @@
 		)
 		(uuid "2e22829d-8639-4aa3-be25-481977da4b5d")
 	)
-	(text "Edge Explorer Rev. 1.1, early 2025"
+	(text "Edge Explorer Rev. 1.2, early 2025"
 		(exclude_from_sim no)
 		(at 177.8 175.006 0)
 		(effects
