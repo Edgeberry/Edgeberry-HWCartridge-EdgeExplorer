@@ -545,7 +545,7 @@
       "specctra_dsn": "",
       "step": "Edgeberry_Explorer_Cartridge.step",
       "svg": "",
-      "vrml": "Edgeberry_Explorer_Cartridge.wrl"
+      "vrml": "../3D models/Edgeberry_Explorer_Cartridge.wrl"
     },
     "page_layout_descr_file": ""
   },

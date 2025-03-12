@@ -30,6 +30,47 @@
 		(49 "F.Fab" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "#000084D4")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "#000084D4")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0.2)
 		(allow_soldermask_bridges_in_footprints no)
 		(grid_origin 125.2 135)
@@ -19504,8 +19545,9 @@
 		(uuid "34d03349-6d78-4165-a683-2d8b76f2bae8")
 	)
 	(gr_line
-		(start 177.2 43)
-		(end 175.2 43)
+		(start 177.1 42.5)
+		(end 175.1 42.5)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -19536,8 +19578,9 @@
 		(uuid "8e81e34f-46ee-4f44-9c49-904cbab7d174")
 	)
 	(gr_line
-		(start 175.2 43)
-		(end 175.2 138)
+		(start 175.1 42.5)
+		(end 175.1 137.5)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -19560,8 +19603,9 @@
 		(uuid "cc5b6ca0-99a7-4dbb-af27-aa0d0b560eea")
 	)
 	(gr_line
-		(start 175.2 138)
-		(end 177.2 138)
+		(start 175.1 137.5)
+		(end 177.1 137.5)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -19570,8 +19614,9 @@
 		(uuid "d48adfb4-e0eb-4d0e-9b32-7b48cd92ab2e")
 	)
 	(gr_line
-		(start 177.2 138)
-		(end 177.2 43)
+		(start 177.1 137.5)
+		(end 177.1 42.5)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -22365,6 +22410,40 @@
 			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "d299f946-51c2-4293-88ce-a9be2a762d3f")
+		(pts
+			(xy 172.5 135) (xy 175.2 137.5)
+		)
+		(height 9)
+		(orientation 1)
+		(gr_text "2.5 mm"
+			(at 182.9 138.1 90)
+			(layer "Dwgs.User")
+			(uuid "d299f946-51c2-4293-88ce-a9be2a762d3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 1)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length -1.27)
+			(text_position_mode 2)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
@@ -31842,6 +31921,7 @@
 	(zone
 		(net 0)
 		(net_name "")
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "5e587c6b-500d-42ad-be06-2bfd63aa469c")
 		(hatch edge 0.5)
@@ -31856,7 +31936,7 @@
 		)
 		(polygon
 			(pts
-				(xy 175.2 138) (xy 177.2 138) (xy 177.2 43) (xy 175.2 43)
+				(xy 175.1 137.5) (xy 177.1 137.5) (xy 177.1 42.5) (xy 175.1 42.5)
 			)
 		)
 	)
@@ -32102,6 +32182,14 @@
 			"3ad23649-87da-43c2-96b0-7cccd454e90d" "5ffc6cb9-a3b4-44ec-aa70-b6aa64ab933e"
 			"990f38fc-7578-4043-b6f4-4de1273957ad" "a47d96cb-18a5-4c17-b934-11905b042990"
 			"f4a40fda-e845-47ea-84ca-b4eebc800394"
+		)
+	)
+	(group ""
+		(uuid "cb02fc39-01e1-4ce9-a09a-7bb39ada2d66")
+		(locked yes)
+		(members "50aaf685-8410-4fd8-a116-df0ef41ce69a" "5e587c6b-500d-42ad-be06-2bfd63aa469c"
+			"93a86010-5055-41f0-af5f-9c9f81d83dea" "d48adfb4-e0eb-4d0e-9b32-7b48cd92ab2e"
+			"dde5a4da-5d28-4250-b81b-d2359d748608"
 		)
 	)
 )
