@@ -12415,13 +12415,13 @@
 		)
 		(model "${KIPRJMOD}/faceplate/Edgeberry_Hardware_Cartridge_faceplate.step"
 			(offset
-				(xyz -43.5 -31.5 4.5)
+				(xyz -43.5 -31.5 5.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 90)
+				(xyz -90 0 -90)
 			)
 		)
 	)
