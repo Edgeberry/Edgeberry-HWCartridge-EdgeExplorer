@@ -26,6 +26,9 @@ The Edgeberry **Edge Explorer Hardware Cartridge** is designed to explore ideas 
 | **I2C**  | I2C SDA <br/>I2C SDL   |      |
 | **UART** | UART RX <br/>UART TX   |      |
 
+>[!WARNING]
+>The digital I/O lines on this Hardware Cartridge use a passive N-MOSFET level-shifting circuit designed for compatibility with standard open-drain and push-pull I/O configurations.
+
 On the Hardware Cartridge board is an ADC chip (MCP3008) connected with the SPI interface.
 
 
