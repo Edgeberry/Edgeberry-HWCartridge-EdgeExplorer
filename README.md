@@ -1,6 +1,6 @@
 ![Edgeberry banner](https://raw.githubusercontent.com/Edgeberry/.github/main/brand/EdgeBerry_banner_cartridge.png)
 
-<img src="documentation//Edgeberry_Explorer_Cartridge_rendering.png" align="right" width="50%"/>
+<img src="documentation//Edgeberry_Explorer_Cartridge_rendering.png" align="right" width="40%"/>
 
 The Edgeberry **Edge Explorer** Hardware Cartridge is made for quick experimentation — helping you explore ideas by easily connecting sensors, actuators, and other peripherals to your Edgeberry system. It features the 4-pin 2.0 mm pitch JST-PH connectors, compatible with modules and breakouts from popular ecosystems like Grove, Crowtail, and STEMMA.
 
