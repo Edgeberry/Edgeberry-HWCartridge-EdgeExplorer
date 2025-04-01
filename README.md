@@ -2,13 +2,13 @@
 
 <img src="documentation//Edgeberry_Explorer_Cartridge_rendering.png" align="right" width="50%"/>
 
-The Edgeberry **Edge Explorer Hardware Cartridge** is designed to explore ideas by easily connecting sensors, actuators and other peripherals to your Edgeberry system. The connector allows a robust connection to modules/breakouts from several ecosystems  (e.g. Grove, Crowtail, STEMMA, ... ).
+The Edgeberry **Edge Explorer** Hardware Cartridge is made for quick experimentation — helping you explore ideas by easily connecting sensors, actuators, and other peripherals to your Edgeberry system. It features the 4-pin 2.0 mm pitch JST-PH connectors, compatible with modules and breakouts from popular ecosystems like Grove, Crowtail, and STEMMA.
 
 #### Ports:
-- **5x** Digital in/out (with PWM on D1)
-- **2x** Analog input (0-5V)
-- **1x** UART
-- **2x** I2C
+- **5x Digital in/out** (with PWM on D1)
+- **2x Analog input** (0-5V)
+- **1x UART**
+- **2x I2C**
 
 <br clear="right"/>
 
