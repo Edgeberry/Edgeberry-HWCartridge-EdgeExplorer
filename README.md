@@ -31,6 +31,8 @@ The Edgeberry **Edge Explorer Hardware Cartridge** is made for quick experimenta
 
 On the Hardware Cartridge board is an ADC chip (MCP3008) connected with the SPI interface.
 
+# Examples
+**[Crowtail Demo](https://github.com/Edgeberry/Edgeberry-HWCartridge-EdgeExplorer/tree/main/examples/Crowtail-Demo)** is a basic IoT demo with [Crowtail modules](https://www.elecrow.com/catalog/category/view/s/crowtail/) in the [Node-RED](https://nodered.org/docs/getting-started/raspberrypi) environment.
 
 ## License & Collaboration
 **Copyright© 2024 Sanne 'SpuQ' Santens**. This project is released under the **CERN OHL-W** license. The [Rules & Guidelines](https://github.com/Edgeberry/.github/blob/main/brand/Edgeberry_Trademark_Rules_and_Guidelines.md) apply to the usage of the Edgeberry™ brand.
